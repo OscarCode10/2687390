@@ -15,8 +15,10 @@ public class Reto1 {
 
 
 
-
-
         lectura.close();
+    
+
+        
+
     }
 }
