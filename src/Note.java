@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Not {
+public class Note {
     public static void main(String[] args) {
 
         Scanner reading = new Scanner(System.in);
@@ -8,15 +8,15 @@ public class Not {
         System.out.println("Ingrese su nombre");
         String name = reading.nextLine();
 
-        double not1, not2, not3, assistance;
+        double note1, note2, note3, assistance;
         System.out.println("Digite su primera nota");
-        not1 = reading.nextDouble();
+        note1 = reading.nextDouble();
         System.out.println("Digite su segunda nota");
-        not2 = reading.nextDouble();
+        note2 = reading.nextDouble();
         System.out.println("Digite su tercera nota");
-        not3 = reading.nextDouble();
+        note3 = reading.nextDouble();
 
-        double average = (not1+not2+not3) /3;
+        double average = (note1+note2+note3) /3;
 
         System.out.println("Su promedio de las notas es: "+average);
 
@@ -31,5 +31,5 @@ public class Not {
         }
 
         reading.close();
-    }
+    } 
 }
