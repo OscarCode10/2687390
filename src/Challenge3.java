@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Random {
+public class Challenge3 {
     public static void main(String[] args) {
         Scanner reading = new Scanner(System.in);
 

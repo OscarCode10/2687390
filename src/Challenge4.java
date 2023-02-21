@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Roc {
+public class Challenge4 {
     public static void main(String[] args) {
         Scanner reading = new Scanner(System.in);
 
