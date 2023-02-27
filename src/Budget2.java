@@ -10,16 +10,17 @@ public class Budget2 {
         totals = 0;
         
         while (op==1) {
-            System.out.println("Ingrese el gasto de su producto (Recuerde que puede poner maximo)");
+            System.out.println("Ingrese el gasto de su producto (Recuerde que puede poner maximo 3)");
             spent = reading.nextInt();
 
-            System.out.println("Desea resgistrar otro gasto, 1 para si y 2 para no");
-            op = reading.nextInt();
-            totals = totals+spent;
-            budget2 = budget2-spent;
-
+            for (int x=1; x<=3; x++) {
+                System.out.println("Desea resgistrar otro gasto, 1 para si y 2 para no");
+                op = reading.nextInt();
+                totals = totals+spent;
+                budget2 = budget2-spent;
+                System.out.println("Numero de gastos: "+x);
+            }
         }
-
         System.out.println("De presupuesto le queda un total de: "+budget2+" y el gasto total fue de: "+totals);
 
 
