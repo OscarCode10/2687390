@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class budget {
+public class Budget {
 
     public static void main(String[] args) throws Exception{
         double width;
