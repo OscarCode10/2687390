@@ -25,23 +25,26 @@ public class Challenge9 {
                     amountBet=amountBet*2;
                     bet=bet+amountBet;
                     System.out.println("Ahora, tu monto es de: "+bet);
+                    numGame=numGame+1;
                 }
                 else if (decision==2 && coin==2) {
                     System.out.println("Elegiste sello y salió sello, !Ganaste¡, el valor que apostaste se duplicará");
                     amountBet=amountBet*2;
                     bet=bet+amountBet;
                     System.out.println("Ahora, tu monto es de: "+bet);
+                    numGame=numGame+1;
                 }
                 else if (decision==1 && coin==2) {
                     System.out.println("Elegiste cara y salió sello, Perdiste, el valor que apostaste lo perderás");
                     System.out.println("Ahora, tu monto es de: "+bet);
+                    numGame=numGame+1;
                 }
                 else {
                     System.out.println("Elegiste sello y salió cara, Perdiste, el valor que apostaste lo perderás");
                     System.out.println("Ahora, tu monto es de: "+bet);
+                    numGame=numGame+1;
                 }
             }
-            numGame=numGame+1;
             System.out.println("Numero de partidas jugadas: "+numGame);
             System.out.println("Si desea jugar de nuevo ingrese 1, en caso de que no ingrese 2");
             op=reading.nextDouble();
