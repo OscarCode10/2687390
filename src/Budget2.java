@@ -23,7 +23,7 @@ public class Budget2 {
             if (op==2) {
                 break;
             }
-            else if (x==4) {
+            else if (x<=3) {
                 break;
             }
         }
